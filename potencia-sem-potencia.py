@@ -5,3 +5,5 @@ resultado = 1
 for i in range(1, expoente + 1):
     resultado = resultado * base
 print(resultado)
+
+# Erick
