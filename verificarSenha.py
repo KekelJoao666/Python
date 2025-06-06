@@ -1,4 +1,7 @@
 def verificarSenha(txt):
+    if len(txt) < 6:
+        print('A senha precisa ter pelo menos 6 digitos.')
+
     temLetra = False
     temNumero = False
 
@@ -23,5 +26,3 @@ while True:
     if verificarSenha(senha):
         print('Senha valida.')
         break
-    else: 
-        print('Senha invalida.')
