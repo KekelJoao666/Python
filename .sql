@@ -46,3 +46,8 @@ VALUES(ANA, anaclara@gmail.com)
  --
 
 UPDATE Clientes set Email ='novoemail@gmail.com' where ID=102
+
+--
+
+ALTER TABLE Cliente ADD COLUMN idade INT;
+
